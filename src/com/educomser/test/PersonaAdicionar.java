@@ -13,7 +13,7 @@ public class PersonaAdicionar {
     public static void main(String[] args) {
         Persona p=new Persona();
         
-        p.setNombre("elv");
+        p.setNombre("elvrrre");
         p.setSueldo(300);
         p.setContrato(true);
         p.setFechaNacimiento( new Date());

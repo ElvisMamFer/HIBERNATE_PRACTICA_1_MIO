@@ -15,7 +15,8 @@ public class PersonaEditar {
         int id = in.nextInt();
 
         PersonaDao perDao = new PersonaDaoImpl();
-        Persona p = perDao.findNyId(id);
+        Persona p = perDao.findById(id);
+        
         if (p != null) {
             SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 

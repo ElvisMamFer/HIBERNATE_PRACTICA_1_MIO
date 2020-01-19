@@ -18,8 +18,10 @@ public class PersonaEliminar {
         int id=in.nextInt();
         
         //Instanciamos la clase de acceso a datos
-        PersonaDao perDao=new PersonaDaoImpl();        
+        PersonaDao perDao=new PersonaDaoImpl(); 
+        System.out.println("==================>");
         Persona per=perDao.findById(id);
+        System.out.println("==================>2");
 
         if(per!=null)
         {

@@ -67,7 +67,7 @@ public  class PersonaDaoImpl implements PersonaDao {
     }
 
     @Override
-    public Persona findNyId(int id) {
+    public Persona findById(int id) {
 
         Persona persona = null;
         try {
@@ -113,9 +113,6 @@ public  class PersonaDaoImpl implements PersonaDao {
     
     }
 
-    @Override
-    public Persona findById(int id) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
 
 }

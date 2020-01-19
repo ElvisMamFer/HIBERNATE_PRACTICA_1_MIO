@@ -8,8 +8,7 @@ public interface PersonaDao {
     public  void create(Persona persona);
     public  void update(Persona persona);
     public  void delete(Persona persona);
-    public  Persona findNyId(int id);
-    public  List<Persona> getAll();
+       public  List<Persona> getAll();
 
     public Persona findById(int id);
 }
